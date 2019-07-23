@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.APBCBS.api.TestUtils.CustomListeners"></listener>
+<listener class-name="com.APBCBS.api.TestUtils.RetryListeners"></listener>
+
+</listeners>
+  <test  name="API Test">
+  
+  <!-- <parameter name="hosturl" value="${hosturl}"/>
+  <parameter name="dburl" value="${dburl}"/>
+  <parameter name="dbusername" value="${dbusername}"/>
+  <parameter name="dbuserpwd" value="${dbuserpwd}"/> -->
+  
+  
+     <classes>
+    <class name="com.APBCBS.api.TestCases.VerifyA002Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA003Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA004Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA006Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA007Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA010Response"/>
+   	  <class name="com.APBCBS.api.TestCases.VerifyA013Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA014Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA031Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA021Response"/>
+      <class name="com.APBCBS.api.TestCases.VerifyA022Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA023Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA024Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA025Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA027Response"/>     
+     <class name="com.APBCBS.api.TestCases.VerifyA036Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA038Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA039Response"/> 
+     <class name="com.APBCBS.api.TestCases.VerifyA040Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA044Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA046Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA047Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA048Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA049Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA050Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA051Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA052Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA053Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA054Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA055Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA504Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA505Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA509Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA510Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA526Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA527Response"/>
+     <class name="com.APBCBS.api.TestCases.VerifyA528Response"/>
+     
+     
+   
+<!-- 	<class name="com.APBCBS.api.TestCases.VerifyA031Response"/>
+    <class name="com.APBCBS.api.TestCases.VerifyA021Response"/> -->
+  
+   
+    
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

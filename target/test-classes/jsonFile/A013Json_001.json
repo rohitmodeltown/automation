@@ -1,0 +1,11 @@
+{
+ "bankCode":"753",
+ "channel":"API",
+ "externalReferenceNo":"CBSAPI00001",
+ "serviceCode":"A013",
+ "transactionBranch":"9999",
+ "userId":"SYSTELLER",
+ "accountID":"1000011020",
+ "accountStatusOption":"4",
+ "reasonCode":"56"
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<Response><TransactionStatus><ExtendedReply><MessagesArray/></ExtendedReply><ErrorCode>93097</ErrorCode><ExternalReferenceNo/><IsOverriden>false</IsOverriden><IsServiceChargeApplied>false</IsServiceChargeApplied><Memo/><ReplyCode>99</ReplyCode><ReplyText>System temporarily down, please try again later</ReplyText><SpReturnValue>0</SpReturnValue></TransactionStatus></Response>
